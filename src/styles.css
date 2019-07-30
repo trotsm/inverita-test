@@ -1,1 +1,37 @@
-/* You can add global styles to this file, and also import other style files */
+body, html {
+  margin: 0;
+  background: black;
+  color: lawngreen;
+  height: 100%;
+
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.border {
+  border: solid lawngreen 2px;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+button a, button{
+  border-color: lawngreen;
+  background: black;
+  color: lawngreen;
+  text-decoration: none;
+}
+
+.insert {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
