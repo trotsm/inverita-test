@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { PageOneComponent } from './page-one/page-one.component';
 import { PageTwoComponent } from './page-two/page-two.component';
 import { PageThreeComponent } from './page-three/page-three.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { PageThreeComponent } from './page-three/page-three.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

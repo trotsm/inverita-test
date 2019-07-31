@@ -1,12 +1,12 @@
 <div class="insert">
-<p>
-  page-two works!
-</p>
+  <ol>
+    <li *ngFor="let item of list">{{ item.name }}</li>
+  </ol>
 </div>
 
 <div class="container">
   <div class="border">
-  <button><a routerLink="/">previous</a></button>
-  <button><a routerLink="/page3">next</a></button>
-</div>
+    <button><a routerLink="/">previous</a></button>
+    <button><a routerLink="/page3">next</a></button>
+  </div>
 </div>

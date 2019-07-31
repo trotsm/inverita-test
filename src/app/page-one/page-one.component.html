@@ -1,7 +1,7 @@
 <div class="insert">
-  <p>
-    page-one works!
-  </p>
+  <p>User name:</p>
+  <input type="text" #myInput>
+  <button (click)="getName(myInput.value); myInput.value = ''">add</button>
 </div>
 
 <div class="container">
